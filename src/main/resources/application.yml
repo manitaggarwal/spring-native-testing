@@ -1,0 +1,9 @@
+spring:
+    application:
+        name: native-service
+    datasource:
+        driverClassName: org.postgresql.Driver
+        password: mysecretpassword
+        url: jdbc:postgresql://localhost:5432/spring
+        username: postgres
+        
